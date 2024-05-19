@@ -1,0 +1,44 @@
+body{
+    background-color: #2a231a70;
+    display: flex;
+}
+main{
+    background-color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+    width: 800px;
+    padding: 15px;
+}
+h1 {
+    border-bottom: 3px solid #60492b;
+}
+.taytay{
+    text-align: center;
+    font-size: 10pt;
+}
+.taytay img{
+    border-radius: 10pt;
+}
+figcaption{
+    text-align: center;
+    color: #000000;
+    font-size: 10pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.nav-bottom {
+    padding-top: 30px;
+}
+.nav-bottom a {
+    font-size: 10px;
+    margin-right: 4px;
+    text-decoration: none;
+    border: 1px solid  #382e22;
+    padding: 5px;
+    border-radius: 50px;
+    color: #000000;
+}
+.nav-bottom a:hover {
+    background-color:  #382e22;
+    color: white;
+    text-decoration: underline;
+}

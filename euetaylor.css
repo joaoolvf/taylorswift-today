@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica:ital@0;1&family=Montserrat&family=Poppins:wght@300&family=Satisfy&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    background-color: #812b8178;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    font-family: IM Fell DW Pica;
+    font-style: italic;
+    color: #46202d;
+    font-weight: 500;
+}
+.nav-bottom {
+    padding-top: 30px;
+}
+.nav-bottom a {
+    font-size: 10px;
+    margin-right: 4px;
+    text-decoration: none;
+    border: 1px solid #572b57bd;
+    padding: 5px;
+    border-radius: 50px;
+    color: #000000;
+}
+.nav-bottom a:hover {
+    background-color: #572b57;
+    color: white;
+    text-decoration: underline;
+}
