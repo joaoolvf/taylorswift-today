@@ -6,7 +6,7 @@ main{
     background-color: #fff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: auto;
-    width: 800px;
+    width: 1050px;
     padding: 15px;
 }
 h1 {
@@ -29,16 +29,18 @@ figcaption{
     padding-top: 30px;
 }
 .nav-bottom a {
+    display: block;
+    width: 20%;
     font-size: 10px;
-    margin-right: 4px;
+    margin-bottom: 4px;
     text-decoration: none;
-    border: 1px solid  #382e22;
-    padding: 5px;
+    border: 1px solid  #5a4e3f;
+    padding: 4px;
     border-radius: 50px;
     color: #000000;
 }
 .nav-bottom a:hover {
-    background-color:  #382e22;
+    background-color:  #5a4e3f;
     color: white;
-    text-decoration: underline;
+    font-weight: bold;
 }

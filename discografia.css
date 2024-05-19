@@ -34,17 +34,19 @@ footer {
     max-width: 1000px;
     min-width: 400px;
 }
-footer > a {
+footer a {
+    display: block;
+    width: 40%;
     font-size: 10px;
-    margin: 4x;
+    margin-bottom: 4px;
     text-decoration: none;
-    border: 1px solid #382e22;
-    padding: 5px;
+    border: 1px solid  #5a4e3f;
+    padding: 4px;
     border-radius: 50px;
     color: #000000;
 }
-footer > a:hover {
-    background-color: #382e22;
+footer a:hover {
+    background-color:  #5a4e3f;
     color: white;
-    text-decoration: underline;
+    font-weight: bold;
 }
