@@ -26,27 +26,3 @@ h1, header{
 .albuns img{
     width: 100px;
 }
-footer {
-    margin: auto;
-    padding: 15px;
-    background-color: #fff;
-    text-align: center;
-    max-width: 1000px;
-    min-width: 400px;
-}
-footer a {
-    display: block;
-    width: 40%;
-    font-size: 10px;
-    margin-bottom: 4px;
-    text-decoration: none;
-    border: 1px solid  #5a4e3f;
-    padding: 4px;
-    border-radius: 50px;
-    color: #000000;
-}
-footer a:hover {
-    background-color:  #5a4e3f;
-    color: white;
-    font-weight: bold;
-}
