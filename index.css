@@ -1,9 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica:ital@0;1&family=Montserrat&family=Poppins:wght@300&family=Satisfy&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 body{
-    background-color: #2a231a70;
+    background-color: var(--azul2);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 0;
+}
+:root {
+    --azul1: #5888a6;
+    --azul2: #80a7bf;
+    --creme: #d9d4c7;
+    --salmao: #d9ad90;
+    --batom: #bf3c30;
 }
 header {
     text-align: center;
@@ -11,7 +18,7 @@ header {
     font-family: Lato, sans-serif;
     font-weight: normal;
     font-style: normal;
-    background-color: #806e5b;
+    background-color: var(--azul1);
     max-width: 1024px;
     max-height: 768px;
     margin: auto;
@@ -22,23 +29,22 @@ img#header {
     margin: auto;
 }
 main {
-    background-color: #fff;
+    background-color: var(--creme);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: auto;
     min-width: 200px;
     max-width: 1024px;
     padding: 15px;
-    border-radius: 0 0 15px 15px;
     margin: 20px auto;
     display: flex;
 }
-main section h1 {
-    color: #60492b;
+main section h2 {
+    color: var(--batom);
 }
 nav.links {
     text-align: center;
     margin: 0px auto -30px;
-    background: #806e5b;
+    background: var(--azul1);
     max-width: 1024px;
     max-height: 768px;
     padding: 15px;
@@ -74,15 +80,16 @@ input {
     border: none;
     border-radius: 25px;
     color: #fff;
-    border: 2px solid #38261249;
-    background-color: #38261249;
+    border: 2px solid --azul2;
+    background-color: var(--azul2);
     margin-bottom: 30px;
 }
 input:focus{
     border: 2px solid rgba(255, 255, 255, 0.351);
 }
 ::-webkit-input-placeholder {
-    color: rgba(255, 255, 255, 0.648);
+    color: rgba(25, 55, 61, 0.648);
+    font-weight: 500;
 }
 button {
     border: none;
@@ -99,23 +106,13 @@ button {
 }
 article{
     display: flex;
-    border: solid 2px white;
-    border-radius: 30px;
     padding-inline: 20px;
     flex-wrap: wrap;
-    h2{
-        color:#000000;
-        font-size: 25px;
-    }
-    p{
-        color: #000000;
-        font-size: 16px;
-    }
    
 }
 footer {
     text-align: center;
-    background-color: #806e5b;
+    background-color: var(--azul1);
     padding: 20px;
 }
 footer > nav {
@@ -137,7 +134,7 @@ footer > nav > a {
 }
 footer > nav > a:hover {
     border: none;
-    background-color: #38261225;
+    background-color: #12263825;
     border-radius: 8px;
 }
 footer > p {
