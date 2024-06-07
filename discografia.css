@@ -16,13 +16,29 @@ header{
     padding-top: 20px;
     padding-bottom: 20px;
 }
-h1, header{
-    padding: 10px;
+.albuns h2 {
+    color: #729FBD;
+    width: 100%;
+    border: 2px solid #729FBD;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.albuns p  {
+    border: 2px solid #729FBD;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-top: 0;
+    width: 100%;
+    padding: 4px;
 }
 .albuns {
-    width: 40vw;
-    display: flex;
+    width: 300px;
+    margin: auto;
+    text-align: center;
 }
 .albuns img{
-    width: 100px;
+    width: 300px;
+    padding: 2px;
 }
