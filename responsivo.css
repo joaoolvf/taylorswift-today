@@ -1,0 +1,16 @@
+/* @media (max-width: 620px) {
+    body {
+        max-width: 500px;
+    }
+    footer {
+        min-width: 100px;
+        min-height: 100px;
+        display: inline-block;
+    }
+    nav.company h2 {
+        font-size: 15px;
+    }
+    nav.company a {
+        font-size: 10px;
+    }
+} */
